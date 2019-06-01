@@ -1,7 +1,15 @@
-<nav class="h2 bb flex items-center">
-	{% for item in site.data.navigation %}
-	<a href="{{ item.link }}" {% if page.url == item.link %} class="red" {% endif %}>
-		{{ item.name }}
+<nav class="h3 bb pa3">
+	<a href="/">
+		<img src="/assets/images/logo.png" alt="Kevin Chan" class="h-100 fl">
 	</a>
-	{% endfor %}
+	<div class="fr db-ns v-mid h-100 dn">
+		<div class="flex items-center h-100">
+			{% for item in site.data.navigation %}
+			<a href="{{ item.link }}" class="ml2 no-underline">
+				{{ item.name }}
+			</a>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="cf"></div>
 </nav>

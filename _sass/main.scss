@@ -1,7 +1,29 @@
 @import "tachyons-sass/tachyons.scss";
 @import "../font/inter.css";
 
+$washed-blue: #f6fffe;
+$washed-green: #e8fdf5;
+$washed-yellow: #fffceb;
+$washed-red: #ffdfdf;
+
 html {
 	font-family: Inter;
 	font-size: 18px;
+}
+
+a {
+	@extend .black;
+	@extend .dim;
+}
+
+#hero {
+  animation: morph 40s linear 0s infinite;	
+}
+
+@keyframes morph {
+  0% { background-color: $washed-yellow; }
+  25% { background-color: $washed-green; }
+  50% { background-color: $washed-blue; }
+  75% { background-color: $washed-red; }
+  100% { background-color: $washed-yellow; }
 }

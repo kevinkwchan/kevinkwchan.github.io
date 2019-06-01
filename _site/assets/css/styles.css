@@ -4363,7 +4363,7 @@ code, .code {
 .white-10 {
   color: rgba(255, 255, 255, 0.1); }
 
-.black {
+.black, a {
   color: #000; }
 
 .near-black {
@@ -7731,16 +7731,17 @@ code, .code {
   Dim element on hover by adding the dim class.
 
 */
-.dim {
+.dim, a {
   opacity: 1;
   transition: opacity .15s ease-in; }
 
-.dim:hover,
-.dim:focus {
+.dim:hover, a:hover,
+.dim:focus,
+a:focus {
   opacity: .5;
   transition: opacity .15s ease-in; }
 
-.dim:active {
+.dim:active, a:active {
   opacity: .8;
   transition: opacity .15s ease-out; }
 
@@ -7980,3 +7981,18 @@ code, .code {
 html {
   font-family: Inter;
   font-size: 18px; }
+
+#hero {
+  animation: morph 40s linear 0s infinite; }
+
+@keyframes morph {
+  0% {
+    background-color: #fffceb; }
+  25% {
+    background-color: #e8fdf5; }
+  50% {
+    background-color: #f6fffe; }
+  75% {
+    background-color: #ffdfdf; }
+  100% {
+    background-color: #fffceb; } }
