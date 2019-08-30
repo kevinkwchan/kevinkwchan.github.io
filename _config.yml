@@ -1,7 +1,15 @@
+markdown: kramdown
 collections:
-  portfolio:
+  projects:
     output: true
 
-sass:
-  load_paths:
-    - node_modules
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "case-study"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

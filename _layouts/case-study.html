@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kevin Chan | {{ page.title }}</title>
+    {% include head-meta-tags.html %}
+  </head>
+  <body class="inter pr3" style="padding-left: 48px; padding-top: 32px">
+		{% include link.html link='/' content='← Back home' %}
+		<h1>{{ page.title }}</h1>
+		{% include tag-collection.html tags=page.tags %}
+    {{ content }}
+  </body>
+</html>
