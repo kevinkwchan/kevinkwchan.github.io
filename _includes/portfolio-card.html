@@ -12,6 +12,9 @@
 	</p>
 
 	<div class="mt3">
-		{% include tag-collection.html tags=include.project.tags %}
+		{% assign tags = include.project.tags | slice:0, 3 %}
+		{% include tag-collection.html tags=tags %}
+		
 	</div>
 </a>
+

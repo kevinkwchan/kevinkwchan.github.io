@@ -4,8 +4,9 @@
     <title>Kevin Chan | {{ page.title }}</title>
     {% include head-meta-tags.html %}
   </head>
-  <body class="inter pr3 dark-gray" style="padding-left: 48px; padding-top: 32px">
-		{% include header.html %}
+  <body id='default' class="inter pr3 dark-gray bt bw3" style="padding-left: 48px; padding-top: 32px">
+    {% include header.html %}
+    <h2 class='mb0'>{{ page.title }}</h2>
     {{ content }}
   </body>
 </html>

@@ -1,4 +1,6 @@
 - name: Portfolio
   link: /
-- name: About + Contact
+- name: About
   link: /about.html
+- name: Contact
+  link: /contact.html
