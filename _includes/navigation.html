@@ -1,9 +1,13 @@
-<nav class="mb4">
-	{% for item in site.data.navigation %}
-		<a href="{{ item.link }}"
-			class="
-			ttu f6 black dim
-			{% if page.url != item.link %}no-underline{% endif %}
-		">{{ item.name }}</a>{% if item != site.data.navigation.last %}<span class="mh1"> //</span>{% endif %}
-	{% endfor %}
-</nav>
+<header class="flex justify-between items-end">
+	<div class='f3'>KC_</div>
+
+	<nav>
+		{% for item in site.data.navigation %}<a href="{{ item.link }}"
+				class="
+				black dim no-underline grow
+				{% if page.url != item.link %}gray{% endif %}
+				{% if item != site.data.navigation.last %}mr4{% endif %}
+			">{{ item.name }}</a>
+		{% endfor %}
+	</nav>
+</header>

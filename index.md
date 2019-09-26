@@ -3,18 +3,20 @@ title: Portfolio
 layout: default
 tags: [PlanGrid, Research, Interviews]
 ---
-<section class="mb4 lh-copy mt0" markdown="block">
-Seeking—Summer 2020 design or research internships.<br>
-Learning—to be a better storyteller.
+<section class="f1-l f2-m f3 lh-title vh-75" markdown="block">
+Hi, I’m Kevin Chan.
+
+I like to think in systems,<br>
+tell stories about real people,<br>
+and help teams make decisions with research.
+
+See it in action. ↓
 </section>
+<!-- <a href='/'>test</a> -->
 
 <section markdown="0">
 <!-- <h2>Projects</h2> -->
 {% for item in site.projects %}
-	{% include portfolio-card.html project=item %}
+	{% include portfolio-item.html project=item %}
 {% endfor %}
 </section>
-
-<a href="#" class="dn-ns bg-near-black pa3 white br2 no-underline dim">
-	Back to top
-</a>

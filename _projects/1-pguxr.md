@@ -1,7 +1,8 @@
 ---
-title: Guiding a team to make product decisions by debunking assumptions
+title: Debunking assumptions about the construction industry
 tags: [PlanGrid, Research, Interviews, Workshop Facilitation, Quantitative Data Analysis]
-thumb: /assets/images/pguxr/thumb.jpg
+thumb: https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1974&q=80
+role: PlanGrid • UX Research
 ---
 <div class='mw7' markdown='block'>
 {% capture intro %}

@@ -1134,7 +1134,7 @@ img {
   border-color: #ffb700; }
 
 .b--yellow {
-  border-color: #ffd700; }
+  border-color: #F9F01D; }
 
 .b--light-yellow {
   border-color: #fbf1a9; }
@@ -1173,7 +1173,7 @@ img {
   border-color: #00449e; }
 
 .b--blue {
-  border-color: #357edd; }
+  border-color: #0E09F2; }
 
 .b--light-blue {
   border-color: #96ccff; }
@@ -3144,19 +3144,19 @@ code, .code {
 */
 /* Height Scale */
 .h1 {
-  height: 1rem; }
+  height: 16rem; }
 
 .h2 {
-  height: 2rem; }
+  height: 24rem; }
 
 .h3 {
-  height: 4rem; }
+  height: 40rem; }
 
 .h4 {
-  height: 8rem; }
+  height: 128rem; }
 
 .h5 {
-  height: 16rem; }
+  height: 256rem; }
 
 /* Height Percentages - Based off of height of parent */
 .h-25 {
@@ -3199,19 +3199,19 @@ code, .code {
 
 @media screen and (min-width: 30em) {
   .h1-ns {
-    height: 1rem; }
+    height: 16rem; }
 
   .h2-ns {
-    height: 2rem; }
+    height: 24rem; }
 
   .h3-ns {
-    height: 4rem; }
+    height: 40rem; }
 
   .h4-ns {
-    height: 8rem; }
+    height: 128rem; }
 
   .h5-ns {
-    height: 16rem; }
+    height: 256rem; }
 
   .h-25-ns {
     height: 25%; }
@@ -3250,19 +3250,19 @@ code, .code {
     height: inherit; } }
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .h1-m {
-    height: 1rem; }
+    height: 16rem; }
 
   .h2-m {
-    height: 2rem; }
+    height: 24rem; }
 
   .h3-m {
-    height: 4rem; }
+    height: 40rem; }
 
   .h4-m {
-    height: 8rem; }
+    height: 128rem; }
 
   .h5-m {
-    height: 16rem; }
+    height: 256rem; }
 
   .h-25-m {
     height: 25%; }
@@ -3301,19 +3301,19 @@ code, .code {
     height: inherit; } }
 @media screen and (min-width: 60em) {
   .h1-l {
-    height: 1rem; }
+    height: 16rem; }
 
   .h2-l {
-    height: 2rem; }
+    height: 24rem; }
 
   .h3-l {
-    height: 4rem; }
+    height: 40rem; }
 
   .h4-l {
-    height: 8rem; }
+    height: 128rem; }
 
   .h5-l {
-    height: 16rem; }
+    height: 256rem; }
 
   .h-25-l {
     height: 25%; }
@@ -4412,7 +4412,7 @@ code, .code {
   color: #ffb700; }
 
 .yellow {
-  color: #ffd700; }
+  color: #F9F01D; }
 
 .light-yellow {
   color: #fbf1a9; }
@@ -4451,7 +4451,7 @@ code, .code {
   color: #00449e; }
 
 .blue {
-  color: #357edd; }
+  color: #0E09F2; }
 
 .light-blue {
   color: #96ccff; }
@@ -4584,7 +4584,7 @@ code, .code {
   background-color: #ffb700; }
 
 .bg-yellow {
-  background-color: #ffd700; }
+  background-color: #F9F01D; }
 
 .bg-light-yellow {
   background-color: #fbf1a9; }
@@ -4623,7 +4623,7 @@ code, .code {
   background-color: #00449e; }
 
 .bg-blue {
-  background-color: #357edd; }
+  background-color: #0E09F2; }
 
 .bg-light-blue {
   background-color: #96ccff; }
@@ -4916,7 +4916,7 @@ code, .code {
 
 .hover-yellow:hover,
 .hover-yellow:focus {
-  color: #ffd700; }
+  color: #F9F01D; }
 
 .hover-light-yellow:hover,
 .hover-light-yellow:focus {
@@ -4968,7 +4968,7 @@ code, .code {
 
 .hover-blue:hover,
 .hover-blue:focus {
-  color: #357edd; }
+  color: #0E09F2; }
 
 .hover-light-blue:hover,
 .hover-light-blue:focus {
@@ -5016,7 +5016,7 @@ code, .code {
 
 .hover-bg-yellow:hover,
 .hover-bg-yellow:focus {
-  background-color: #ffd700; }
+  background-color: #F9F01D; }
 
 .hover-bg-light-yellow:hover,
 .hover-bg-light-yellow:focus {
@@ -5068,7 +5068,7 @@ code, .code {
 
 .hover-bg-blue:hover,
 .hover-bg-blue:focus {
-  background-color: #357edd; }
+  background-color: #0E09F2; }
 
 .hover-bg-light-blue:hover,
 .hover-bg-light-blue:focus {
@@ -7962,7 +7962,7 @@ code, .code {
   display: block; }
 
 .nested-links a {
-  color: #357edd;
+  color: #0E09F2;
   transition: color .15s ease-in; }
 
 .nested-links a:hover,
@@ -7977,5 +7977,11 @@ code, .code {
   Add custom styles here.
 
 */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+a {
+  text-decoration-color: #0E09F2; }
+
 .inter {
   font-family: Inter, sans-serif; }
