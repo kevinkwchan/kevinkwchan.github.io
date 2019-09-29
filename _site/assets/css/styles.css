@@ -7981,7 +7981,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0; }
 
 a {
-  text-decoration-color: #0E09F2; }
+  text-decoration-color: #0E09F2;
+  color: inherit; }
+
+.hover-blue:hover {
+  text-decoration-color: #0E09F2;
+  color: inherit;
+  transition: 0.1s; }
 
 .inter {
   font-family: Inter, sans-serif; }

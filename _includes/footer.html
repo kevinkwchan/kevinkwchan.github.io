@@ -1,0 +1,9 @@
+<footer>
+    {% for item in site.data.contact %}<a href="{{ item.link }}"
+				class="
+				no-underline hover-blue
+				{% if page.url != item.link %}gray{% endif %}
+				{% if item != site.data.navigation.last %}mr3{% endif %}
+			">{{ item.name }}</a>
+		{% endfor %}
+</footer>
