@@ -4,12 +4,19 @@
     <title>Kevin Chan | {{ page.title }}</title>
     {% include head-meta-tags.html %}
   </head>
-  <body id="case-study" class="inter pr3 lh-copy f4 pb5" style="padding-left: 48px; padding-top: 32px">
-		{% include link.html link='/' content='← Back home' %}
-		<h1 class="lh-title mb3 mw7">{{ page.title }}</h1>
-		{% include tag-collection.html tags=page.tags %}
+  <body id="case-study" class='inter center pa5-ns pa4 mw1440'>
+    {% include navigation.html %}
+
+    <div class="f1-l f2-m f3 lh-title mw8">{{ page.question }}</div>
+    
+    <div>
+      Tags:
+      {% for item in page.tags %}
+        <span>{{ item }}</span>
+      {% endfor %}
+    </div>    
+    
     {{ content }}
-		{% include link.html link='#' content='↑ Back to top' %}
 
   </body>
 </html>

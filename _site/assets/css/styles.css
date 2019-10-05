@@ -2964,7 +2964,7 @@ code, .code {
      -l  = large
 
 */
-.normal {
+.normal, h2 {
   font-weight: normal; }
 
 .b {
@@ -3414,7 +3414,7 @@ code, .code {
 .lh-title {
   line-height: 1.25; }
 
-.lh-copy {
+.lh-copy, #case-study p {
   line-height: 1.5; }
 
 @media screen and (min-width: 30em) {
@@ -3530,7 +3530,7 @@ code, .code {
 .mw6 {
   max-width: 32rem; }
 
-.mw7 {
+.mw7, #case-study p, #case-study h2 {
   max-width: 48rem; }
 
 .mw8 {
@@ -5317,7 +5317,7 @@ code, .code {
   padding-left: 16rem;
   padding-right: 16rem; }
 
-.ma0 {
+.ma0, #case-study p {
   margin: 0; }
 
 .ma1 {
@@ -5392,13 +5392,13 @@ code, .code {
 .mb0 {
   margin-bottom: 0; }
 
-.mb1, #case-study h2, #case-study h4 {
+.mb1 {
   margin-bottom: 0.25rem; }
 
-.mb2 {
+.mb2, h2 {
   margin-bottom: 0.5rem; }
 
-.mb3 {
+.mb3, #case-study p {
   margin-bottom: 1rem; }
 
 .mb4 {
@@ -5413,22 +5413,22 @@ code, .code {
 .mb7 {
   margin-bottom: 16rem; }
 
-.mt0, #case-study h2 + p, #case-study h3 + p, #case-study h4 + p {
+.mt0 {
   margin-top: 0; }
 
 .mt1 {
   margin-top: 0.25rem; }
 
-.mt2, #default h2 + section > * {
+.mt2 {
   margin-top: 0.5rem; }
 
 .mt3 {
   margin-top: 1rem; }
 
-.mt4 {
+.mt4, h2 {
   margin-top: 2rem; }
 
-.mt5, #case-study h2 {
+.mt5 {
   margin-top: 4rem; }
 
 .mt6 {
@@ -7303,7 +7303,7 @@ code, .code {
 .f1 {
   font-size: 3rem; }
 
-.f2 {
+.f2, h2 {
   font-size: 2.25rem; }
 
 .f3 {
@@ -7977,8 +7977,11 @@ code, .code {
   Add custom styles here.
 
 */
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   margin: 0; }
+
+.mw1440 {
+  max-width: 1440px; }
 
 a {
   text-decoration-color: #0E09F2;

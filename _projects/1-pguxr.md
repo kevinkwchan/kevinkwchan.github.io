@@ -1,44 +1,30 @@
 ---
 title: Debunking assumptions about the construction industry
+question: Can user research unblock a team that doesn't know what to do next?
 tags: [PlanGrid, Research, Interviews, Workshop Facilitation, Quantitative Data Analysis]
 thumb: https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1974&q=80
 role: PlanGrid • UX Research
 ---
-<div class='mw7' markdown='block'>
-{% capture intro %}
-As a user research intern on PlanGrid's Growth Team, I combined quantitative analysis with user and internal stakeholder interviews to identify value propositions, customer segmentations and prioritize target populations.
-{% endcapture %}
 
-{% include blockquote.html content=intro %}
+## Background
+PlanGrid, an Autodesk Company builds productivity software for the construction industry. 
 
-## Company background
-PlanGrid builds project management and field productivity software for the construction industry. The company launched in 2013 with an iPad app that allowed users to markup blueprints on a mobile device and eliminates the need for bringing expensive paper blueprints to construction sites. Over the years, PlanGrid has expanded its scope to cover many more construction related tasks.
+When I joined as a user research intern, the Growth team had already started working on a new onboarding initiative but were stuck on what to do next. As a researcher, I modeled assumptions and used quantitative data to expose assumptions, conducted research to validate those assumptions, and worked with the team to figure out a course of action.
 
-</div><!-- wrapper -->
+## Business problem: customer acquisition
+As the name suggests, PlanGrid's Growth team is tasked with growing our customer base. Vital to achieving this goal is understanding how the company acquires new customers.
 
-
-{% include figure.html
-	src="../assets/images/plangrid_website.png"
-	alt="Screenshot from the PlanGrid website"
-	caption="PlanGrid, an Autodesk company builds software for construction productivity."
-	width="mw8"
-%}
-
-<div class='mw7' markdown='block'>
-## Business problem
 Most customers follow a typical funnel when becoming a paying customer. They first interact with marketing content of some sort, explore the product on their own, then get in contact with sales to purchase a license.
 
-As a product organization, we noticed that there was a significant portion of new users that drop off very early. This makes it difficult for sales reps to reach out to them and work with them to fit PlanGrid to their needs before trying to close a deal with them. 
-
-As of early 2019, our 30-day retention graph looked a little like this:
-</div><!-- wrapper -->
+Before I joined, the team had studied this funnel and found that there was a large drop in conversion on the second step: free trials. After some investigation, they learned from analytics that many of the new users that drop off on the first day go through the sign-up process, then leave without really doing anything.
 
 {% include figure.html
-	src="../assets/images/pguxr/retention.png"
-	alt="Graph showing 30-day retention. Steep drop-off on day 1."
-	caption="30-day retention for new users that sign up for PlanGrid."
-	width="w60"
+	src="../assets/images/pguxr/pg-sales-funnel.svg"
+	alt="Welcome messages and survey questions in the new onboarding flow."
+	caption="Welcome messages and survey questions in the new onboarding flow."
+	width="mw7"
 %}
+
 
 <div class='mw7' markdown='block'>
 Many new users drop-off after the first day. This initial drop highlighted how important a users early experience with PlanGrid was. If we could increase retention past day 1, our sales organization would have a bigger pool of potential customers to work with.

@@ -1,7 +1,15 @@
 @import "../node_modules/tachyons-sass/tachyons.scss";
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
 	margin: 0
+}
+
+h2 {
+	@extend .f2, .mt4, .mb2, .normal;
+}
+
+.mw1440 {
+	max-width: 1440px;
 }
 
 a {
@@ -15,26 +23,15 @@ a {
 	transition: .1s
 }
 
+#case-study {
+	p {
+		@extend .ma0, .mw7, .lh-copy, .mb3
+	}
+
+	h2 {
+		@extend .mw7;
+	}
+}
+
 // a:hover { color: $blue }
 // :root {	font-size: 18px }
-
-#case-study {
-	h2 {
-		@extend .mb1, .mt5;
-		// @extend .mb1;
-	}
-
-	h2 + p, h3 + p, h4 + p {
-		@extend .mt0;
-	}
-
-	h4 {
-		@extend .mb1
-	}
-}
-
-#default {
-	h2 + section>* {
-		@extend .mt2
-	}
-}
