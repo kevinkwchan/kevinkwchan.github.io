@@ -1692,7 +1692,7 @@ img {
      -l  = large
 
 */
-.top-0 {
+.top-0, .card-accent {
   top: 0; }
 
 .right-0 {
@@ -3152,11 +3152,11 @@ code, .code {
 .h3 {
   height: 40rem; }
 
-.h4 {
-  height: 128rem; }
+.h4, .card-accent {
+  height: 1rem; }
 
-.h5 {
-  height: 256rem; }
+.h5, a:hover .card-accent {
+  height: 8rem; }
 
 /* Height Percentages - Based off of height of parent */
 .h-25 {
@@ -3208,10 +3208,10 @@ code, .code {
     height: 40rem; }
 
   .h4-ns {
-    height: 128rem; }
+    height: 1rem; }
 
   .h5-ns {
-    height: 256rem; }
+    height: 8rem; }
 
   .h-25-ns {
     height: 25%; }
@@ -3259,10 +3259,10 @@ code, .code {
     height: 40rem; }
 
   .h4-m {
-    height: 128rem; }
+    height: 1rem; }
 
   .h5-m {
-    height: 256rem; }
+    height: 8rem; }
 
   .h-25-m {
     height: 25%; }
@@ -3310,10 +3310,10 @@ code, .code {
     height: 40rem; }
 
   .h4-l {
-    height: 128rem; }
+    height: 1rem; }
 
   .h5-l {
-    height: 256rem; }
+    height: 8rem; }
 
   .h-25-l {
     height: 25%; }
@@ -3530,7 +3530,7 @@ code, .code {
 .mw6 {
   max-width: 32rem; }
 
-.mw7, #case-study p, #case-study li, #case-study h2 {
+.mw7, #case-study p, #case-study li, #case-study h2, #case-study h3 {
   max-width: 48rem; }
 
 .mw8 {
@@ -3738,7 +3738,7 @@ code, .code {
 .w-90 {
   width: 90%; }
 
-.w-100 {
+.w-100, .card-accent {
   width: 100%; }
 
 .w-third {
@@ -4119,7 +4119,7 @@ code, .code {
 .relative {
   position: relative; }
 
-.absolute {
+.absolute, .card-accent {
   position: absolute; }
 
 .fixed {
@@ -4167,7 +4167,7 @@ code, .code {
     Docs: http://tachyons.io/docs/themes/opacity/
 
 */
-.o-100 {
+.o-100, a:hover .card-accent div {
   opacity: 1; }
 
 .o-90 {
@@ -4363,7 +4363,7 @@ code, .code {
 .white-10 {
   color: rgba(255, 255, 255, 0.1); }
 
-.black {
+.black, a:hover {
   color: #000; }
 
 .near-black {
@@ -4583,7 +4583,7 @@ code, .code {
 .bg-gold {
   background-color: #ffb700; }
 
-.bg-yellow {
+.bg-yellow, .card-accent {
   background-color: #F9F01D; }
 
 .bg-light-yellow {
@@ -5395,7 +5395,7 @@ code, .code {
 .mb1, p, li {
   margin-bottom: 0.25rem; }
 
-.mb2 {
+.mb2, h3 {
   margin-bottom: 0.5rem; }
 
 .mb3, h2, #case-study p {
@@ -5425,7 +5425,7 @@ code, .code {
 .mt3 {
   margin-top: 1rem; }
 
-.mt4 {
+.mt4, h3 {
   margin-top: 2rem; }
 
 .mt5, h2 {
@@ -7526,7 +7526,7 @@ code, .code {
 .overflow-container {
   overflow-y: scroll; }
 
-.center, #case-study p, #case-study li, #case-study h2 {
+.center, #case-study p, #case-study li, #case-study h2, #case-study h3 {
   margin-right: auto;
   margin-left: auto; }
 
@@ -7977,20 +7977,31 @@ code, .code {
   Add custom styles here.
 
 */
-h1, h3, h4, h5, h6 {
-  margin: 0; }
-
 .mw1440 {
   max-width: 1440px; }
 
 a {
-  text-decoration-color: #0E09F2;
-  color: inherit; }
-
-.hover-blue:hover {
-  text-decoration-color: #0E09F2;
   color: inherit;
-  transition: 0.1s; }
+  text-decoration: none;
+  background-image: linear-gradient(to right, #F9F01D 75%, #F9F01D 75%);
+  background-position: 0 0.75em;
+  background-repeat: repeat-x;
+  background-size: 1px 1em; }
+
+a:hover {
+  background-size: 1px 1.25em;
+  background-position: 0;
+  transition: .25s;
+  background-image: linear-gradient(to right, #F9F01D 75%, #F9F01D 75%); }
+
+.bg-none {
+  background-image: none; }
+
+a:hover .card-accent {
+  transition: .5s; }
+
+a:hover .card-accent div {
+  transition: .5s; }
 
 .inter {
   font-family: Inter, sans-serif; }

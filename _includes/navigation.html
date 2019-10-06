@@ -1,11 +1,10 @@
 <header class="flex justify-between items-end mb4 mb5-ns">
-	<a class='f3 black no-underline dim' href='/'>KC_</a>
+	<a class='f3' href='/'>KC_</a>
 
 	<nav>
 		{% for item in site.data.navigation %}<a href="{{ item.link }}"
 				class="
-				black dim no-underline grow
-				{% if page.url != item.link %}gray{% endif %}
+				{% if page.url != item.link %}bg-none{% endif %}
 				{% if item != site.data.navigation.last %}mr4{% endif %}
 			">{{ item.name }}</a>
 		{% endfor %}

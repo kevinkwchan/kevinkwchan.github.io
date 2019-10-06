@@ -1,32 +1,49 @@
 @import "../node_modules/tachyons-sass/tachyons.scss";
 
-h1, h3, h4, h5, h6 {
-	margin: 0
-}
-
 p, li { @extend .lh-copy, .mb1 };
 
-h2 {
-	@extend .f2-ns, .f3, .mt5, .mb3, .normal;
-};
+h2 { @extend .f2-ns, .f3, .mt5, .mb3, .normal };
 
-.mw1440 {
-	max-width: 1440px;
-}
+h3 { @extend .mb2, .mt4 };
+
+.mw1440 { max-width: 1440px; }
 
 a {
-	text-decoration-color: $blue;
 	color: inherit;
+	text-decoration: none;
+	background-image: linear-gradient(to right, $yellow 75%, $yellow 75%);
+	background-position: 0 0.75em;
+	background-repeat: repeat-x;
+	background-size: 1px 1em;
 }
 
-.hover-blue:hover {
-	text-decoration-color: $blue;
-	color: inherit;
-	transition: .1s
+a:hover {
+	background-size: 1px 1.25em;
+	background-position: 0;
+	transition: .25s;
+	background-image: linear-gradient(to right, $yellow 75%, $yellow 75%);
+	@extend .black;
 }
+
+.bg-none { background-image: none }
+
+.card-accent {
+	@extend .absolute, .top-0, .bg-yellow, .h4, .w-100
+};
+
+a:hover .card-accent {
+	transition: .5s;
+	@extend .h5
+};
+
+a:hover .card-accent div {
+	transition: .5s;
+	@extend .o-100
+};
 
 #case-study {
 	p { @extend .ma0, .mb3, .mw7, .center, .f4-ns };
 	li { @extend .mw7, .center, .f4-ns };
 	h2 { @extend .mw7, .center };
+	h3 { @extend .mw7, .center}
 }

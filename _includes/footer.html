@@ -1,7 +1,6 @@
-<footer class='mt5'>
+<footer class='mt5 black'>
     {% for item in site.data.contact %}<a href="{{ item.link }}"
-		class="
-		no-underline hover-blue
+		class=" bg-none
 		{% if page.url != item.link %}gray{% endif %}
 		{% if item != site.data.navigation.last %}mr3{% endif %}
 		">{{ item.name }}</a>

@@ -1,8 +1,9 @@
-<!-- screw grid lmao -->
 <a 
-	id='2'
-	class="dim db no-underline black bt bw4 b--yellow mb5 mb6-ns"
+	class="db no-underline black mb5 mb6-ns relative p-card"
 	href="{{ include.project.url }}">
+		<div class='card-accent flex items-center' style='z-index: 100'>
+			<div class='center o-0 f2-ns f3'>View project</div>
+		</div>
 		<div class="mb3 cover bg-near-white h2 h3-ns"
 			style="
 				background-image: url('{{ include.project.thumb }}');

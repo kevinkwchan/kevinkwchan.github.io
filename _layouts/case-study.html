@@ -28,6 +28,17 @@
       {{ content }}
     </main>
 
+    <div class='mw7 center mt5'>
+      <a class='dib mr3'href='/'>← Return home</a>
+      <a class='dib
+        {% if page.next.url %}
+        mr3
+        {% endif %}
+        'href='#'>↑ Back to top</a>
+      {% if page.next.url %}
+        <a class='dib'href='{{ page.next.url }}'>🡒 Next project</a>
+      {% endif %}
+    </div>
     {% include footer.html %}
   </body>
 </html>

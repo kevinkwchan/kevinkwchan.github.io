@@ -7,9 +7,9 @@ role: PlanGrid • UX Research
 ---
 
 ## Background
-PlanGrid, an Autodesk Company builds productivity software for the construction industry. 
+[PlanGrid, an Autodesk Company][1] builds productivity software for the construction industry. 
 
-When I joined as a user research intern, the Growth team had already started working on a new onboarding initiative but were stuck on what to do next. As a researcher, I modeled assumptions and used quantitative data to expose assumptions, conducted research to validate those assumptions, and worked with the team to figure out a course of action.
+When I joined as a user research intern, the Growth team had already started working on a new onboarding initiative but were stuck on what to do next. As a researcher, I  used quantitative data to expose assumptions, created models, conducted research to validate those assumptions, and worked with the team to figure out a course of action.
 
 ## Business problem: customer acquisition
 As the name suggests, PlanGrid's Growth team is tasked with growing our customer base. Vital to achieving this goal is understanding how the company acquires new customers.
@@ -194,3 +194,5 @@ I had an amazing time as a user research intern at PlanGrid. Over the four month
 
 ## Acknowledgements
 Shout outs to my manager Christiana, my teammates Peter and Ronald and the rest of the Growth team for their support and collaboration in this project. Most of all though, thank you to Joe Kappes, my research mentor, for developing my love for and way I view user research.
+
+[1]: https://www.plangrid.com/
