@@ -3414,7 +3414,7 @@ code, .code {
 .lh-title {
   line-height: 1.25; }
 
-.lh-copy, #case-study p {
+.lh-copy, p, li {
   line-height: 1.5; }
 
 @media screen and (min-width: 30em) {
@@ -3530,7 +3530,7 @@ code, .code {
 .mw6 {
   max-width: 32rem; }
 
-.mw7, #case-study p, #case-study h2 {
+.mw7, #case-study p, #case-study li, #case-study h2 {
   max-width: 48rem; }
 
 .mw8 {
@@ -5392,13 +5392,13 @@ code, .code {
 .mb0 {
   margin-bottom: 0; }
 
-.mb1 {
+.mb1, p, li {
   margin-bottom: 0.25rem; }
 
-.mb2, h2 {
+.mb2 {
   margin-bottom: 0.5rem; }
 
-.mb3, #case-study p {
+.mb3, h2, #case-study p {
   margin-bottom: 1rem; }
 
 .mb4 {
@@ -5425,10 +5425,10 @@ code, .code {
 .mt3 {
   margin-top: 1rem; }
 
-.mt4, h2 {
+.mt4 {
   margin-top: 2rem; }
 
-.mt5 {
+.mt5, h2 {
   margin-top: 4rem; }
 
 .mt6 {
@@ -7303,10 +7303,10 @@ code, .code {
 .f1 {
   font-size: 3rem; }
 
-.f2, h2 {
+.f2 {
   font-size: 2.25rem; }
 
-.f3 {
+.f3, h2 {
   font-size: 1.5rem; }
 
 .f4 {
@@ -7333,13 +7333,13 @@ code, .code {
   .f1-ns {
     font-size: 3rem; }
 
-  .f2-ns {
+  .f2-ns, h2 {
     font-size: 2.25rem; }
 
   .f3-ns {
     font-size: 1.5rem; }
 
-  .f4-ns {
+  .f4-ns, #case-study p, #case-study li {
     font-size: 1.25rem; }
 
   .f5-ns {
@@ -7526,7 +7526,7 @@ code, .code {
 .overflow-container {
   overflow-y: scroll; }
 
-.center {
+.center, #case-study p, #case-study li, #case-study h2 {
   margin-right: auto;
   margin-left: auto; }
 

@@ -4,9 +4,11 @@ h1, h3, h4, h5, h6 {
 	margin: 0
 }
 
+p, li { @extend .lh-copy, .mb1 };
+
 h2 {
-	@extend .f2, .mt4, .mb2, .normal;
-}
+	@extend .f2-ns, .f3, .mt5, .mb3, .normal;
+};
 
 .mw1440 {
 	max-width: 1440px;
@@ -24,14 +26,7 @@ a {
 }
 
 #case-study {
-	p {
-		@extend .ma0, .mw7, .lh-copy, .mb3
-	}
-
-	h2 {
-		@extend .mw7;
-	}
+	p { @extend .ma0, .mb3, .mw7, .center, .f4-ns };
+	li { @extend .mw7, .center, .f4-ns };
+	h2 { @extend .mw7, .center };
 }
-
-// a:hover { color: $blue }
-// :root {	font-size: 18px }

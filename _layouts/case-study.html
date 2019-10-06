@@ -9,14 +9,25 @@
 
     <div class="f1-l f2-m f3 lh-title mw8">{{ page.question }}</div>
     
-    <div>
+    <div class='mt3 mb5'>
       Tags:
       {% for item in page.tags %}
-        <span>{{ item }}</span>
+        <span>{{ item }}</span>{% if item != page.tags.last %}, {% endif %}
       {% endfor %}
-    </div>    
-    
-    {{ content }}
+    </div>
 
+    <div class="mb3 cover bg-near-white h2 h3-ns"
+			style="
+				background-image: url('{{ page.thumb }}');
+				background-position: center;
+				filter: saturate(0)
+				">
+		</div>
+    
+    <main>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
   </body>
 </html>
