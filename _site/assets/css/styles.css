@@ -3530,7 +3530,7 @@ code, .code {
 .mw6 {
   max-width: 32rem; }
 
-.mw7, #case-study p, #case-study li, #case-study h2, #case-study h3 {
+.mw7, #case-study p, #case-study li, #case-study h2, #case-study h3, #about p, #about h2, #about h3 {
   max-width: 48rem; }
 
 .mw8 {
@@ -5317,7 +5317,7 @@ code, .code {
   padding-left: 16rem;
   padding-right: 16rem; }
 
-.ma0, #case-study p {
+.ma0, #case-study p, #about p {
   margin: 0; }
 
 .ma1 {
@@ -5398,7 +5398,7 @@ code, .code {
 .mb2, h3 {
   margin-bottom: 0.5rem; }
 
-.mb3, h2, #case-study p {
+.mb3, h2, #case-study p, #about p {
   margin-bottom: 1rem; }
 
 .mb4 {
@@ -7339,7 +7339,7 @@ code, .code {
   .f3-ns {
     font-size: 1.5rem; }
 
-  .f4-ns, #case-study p, #case-study li {
+  .f4-ns, #case-study p, #case-study li, #about p {
     font-size: 1.25rem; }
 
   .f5-ns {
@@ -7526,7 +7526,7 @@ code, .code {
 .overflow-container {
   overflow-y: scroll; }
 
-.center, #case-study p, #case-study li, #case-study h2, #case-study h3 {
+.center, #case-study p, #case-study li, #case-study h2, #case-study h3, #about p, #about h2, #about h3 {
   margin-right: auto;
   margin-left: auto; }
 

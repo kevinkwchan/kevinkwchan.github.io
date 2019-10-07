@@ -46,4 +46,9 @@ a:hover .card-accent div {
 	li { @extend .mw7, .center, .f4-ns };
 	h2 { @extend .mw7, .center };
 	h3 { @extend .mw7, .center}
+};
+
+#about {
+	p { @extend .f4-ns, .ma0, .mb3 };
+	p, h2, h3 { @extend .mw7, .center }
 }
