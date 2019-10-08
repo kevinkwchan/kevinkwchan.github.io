@@ -62,4 +62,4 @@ I'm currently in my third year of [Systems Design Engineering](https://uwaterloo
 ## Contact
 [kevin.m.chan@edu.uwaterloo.ca](mailto:kevin.m.chan@uwaterloo.ca)
 
-[insert resume here]
+[Resume](assets/resume-kc.pdf)
