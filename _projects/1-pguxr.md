@@ -59,8 +59,8 @@ The team had released the new designs to an experimental group of users for a 4-
 When I joined the Growth Team, the first thing I did was try to figure out how they ended up in this situation. By speaking with project stakeholders and digging through documentation, I learned that while the team had good intentions of improving the user experience, they hadn't conducted any qualitative research and were operating primarily on assumptions that included...
 
 - how to divide users
-- what their value propositions would be
-- and how to showcase these theorized value propositions through design
+- the value propositions for these users
+- how to deliver these value propositions through design
 
 If any of these assumptions were proven to be wrong, the new onboarding flow wouldn't achieve the results we wanted it to. Realizing this, I thought the team needed to take a step back and validate these assumptions with user research before moving forward.
 
@@ -83,16 +83,18 @@ The team thought that there are two types of people that would get value out of 
 	
 %}
 
-If a user selected "I manage and distribute information like sheets and documents" or "I do both" they were prompted to upload a set of blueprints. If they selected "I read or markup sheets and documents" or "I'm not sure" then they would be shown PlanGrid's annotation tools on a set of sample blueprints.
+In the new onboarding flow, if a user selects "I manage and distribute information like sheets and documents" or "I do both" they are prompted to upload a set of blueprints. If they select "I read or markup sheets and documents" or "I'm not sure" then are shown PlanGrid's annotation tools on a set of sample blueprints.
 
-The team expected that most people would fall into the admin or collab categories, but the results were the opposite. 
+The team expected that most people would fall into the admin or collab categories, but the results were the _opposite_. 
 
 {% include figure.html
 	src="../assets/images/pguxr/expectations-v-reality.svg"
 	alt="Welcome messages and survey questions in the new onboarding flow."
-	caption="When new users sign up, they were presented with a multi-select option that would route them to different flows."
+	caption="Results of the survey question."
 	width="mw8"
 %}
+
+The most selected option by far was "I do both", followed by "I'm not sure". This was a strong signal that the way we were bucketing users was wrong.
 
 ## Getting buy-in for user research
 I presented visual model for assumptions and used the quantitative survey data to reinforce my thesis. Many of the Growth team members were not fully aware of the assumptions that were made and how they were influencing design decisions.
@@ -122,18 +124,17 @@ From these research questions, we developed a set of screener criteria which inc
 
 These criteria were intended to give us users who had found PlanGrid on their own, gone through the previous onboarding process, and decided to convert.
 
-{% include figure.html
-	src="../assets/images/pguxr/user-learnings.svg"
-	alt="Welcome messages and survey questions in the new onboarding flow."
-	caption="User research identified three key learnings about user groups, feature spread and the journey towards conversion."
-	
-%}
-
 After synthesizing our observations from our five user interviews, we identified three key trends:
 
 1. These users were only using a limited feature set that solved a tightly scoped problem they ran into in their construction work
 2. The users we spoke to were primarily using PlanGrid on their own
 3. Conversations with sales played a large part in them understanding the product
+
+{% include figure.html
+	src="../assets/images/pguxr/user-learnings.svg"
+	alt="Welcome messages and survey questions in the new onboarding flow."
+	caption="User research identified three key learnings about user groups, feature spread and the journey towards conversion."
+%}
 
 These insights troubled the Growth Team. We had discovered a way of using PlanGrid that didn't align with our expectations; and we wanted to learn more. Specifically, we wanted to know:
 
@@ -186,7 +187,7 @@ First, we would segment new users by whether they were an owner, general contrac
 ## Learnings
 I had an amazing time as a user research intern at PlanGrid. Over the four months, I learned how to plan and execute research studies, facilitate discussions, and advocate for our users when making product decisions. Here are my top reflections from the term.
 
-**Combine qualitative and quantitative data**. The Growth team started off purely looking at numbers without building a solid qualitative understanding of their users. The data we collected from the initial survey question served as a great signal that an assumption we were making was wrong. This signal served as a guide to direct our qualitative user research. Using both methods were key to telling a complete story.
+**Combine qualitative and quantitative data**. The Growth team started off purely looking at numbers without building a solid qualitative understanding of their users. The data we collected from the initial survey question served as a great signal that an assumption we were making was wrong. This signal served as a guide to direct our qualitative user research. Using a mixed methods approach was key to telling a complete story.
 
 **Using customer proxies to supplement the research process.** To be clear, customer proxies are *not* a replacement for talking to real customers. However, they can help you understand a larger context for the data you're collecting. For example, when we recruited users, we found only single-player customers. Only after speaking with sales reps did we realize this was a small minority of our user-base.
 

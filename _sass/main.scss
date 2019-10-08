@@ -45,10 +45,15 @@ a:hover .card-accent div {
 	p { @extend .ma0, .mb3, .mw7, .center, .f4-ns };
 	li { @extend .mw7, .center, .f4-ns };
 	h2 { @extend .mw7, .center };
-	h3 { @extend .mw7, .center}
+	h3 { @extend .mw7, .center };
+
+	blockquote p {
+		@extend .serif, .i, .f4, .f3-ns, .bl, .bw2, .pl3
+	}
 };
 
 #about {
 	p { @extend .f4-ns, .ma0, .mb3 };
-	p, h2, h3 { @extend .mw7, .center }
+	p, h2, h3 { @extend .mw7, .center };
 }
+

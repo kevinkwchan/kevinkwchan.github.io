@@ -16,7 +16,7 @@ This is a personal side project and in no way affiliated with Metrolinx or PREST
     width='mw8'
 %}
 
-PRESTO is the contact-less payment card used by public transportation systems across Southern Ontario. Users can manage their card in-person at transit terminals or online through a desktop web app. I researched the space and prototyped a mobile app to help travelers on-the-go.
+PRESTO is the contact-less payment card used by public transportation systems across southern Ontario. Users can manage their card in-person at transit terminals or online through a desktop web-app. I researched the space and prototyped a mobile app to help travelers on-the-go.
 
 ## Hypothesis
 When I realized the company was lacking a mobile app to pair with their transit cards, I hypothesized pain points that users might encounter. 

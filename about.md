@@ -12,12 +12,14 @@ I'm fascinated by the way society and technology influence each other, and the r
 
 This interest has manifested itself in product design, UX research and data science roles. I like to blend qualitative and quantitative data to tell stories about real people, and use those stories along with models I craft to facilitate discussions with teams on how to solve problems for customers. 
 
-Though the jobs have had different titles, I see the act of uncovering human experiences and mobilizing businesses to deliver products and services in a user-centric way to be the common thread that ties them together.
-
 {% include figure.html src='assets/images/me.jpg'
     width='mw8'
     caption='Me attending my first design sprint workshop. Captured by Jenny Wen at a UW/UX event.'
 %}
+
+Though my jobs have had different titles, I see the act of uncovering human experiences and mobilizing businesses to deliver products and services in a user-centric way to be the common thread that ties them together.
+
+In my spare time, you can usually catch me break dancing at home or at a local session in town. It's the best way to express creativity, stay fit, and look cool while doing it. (In my opinion.)
 
 ## Internships
 
@@ -56,9 +58,6 @@ Designed and pitched to C-level executives a reimagined banking app targeted at 
 *Systems Design Engineering*
 
 I'm currently in my third year of [Systems Design Engineering](https://uwaterloo.ca/systems-design-engineering/about-systems-design-engineering/what-systems-design-engineering) at the University of Waterloo. It's made me really appreciate systems thinking as an approach to problem solving in a holistic and multi-disciplinary way.
-
-## lol
-At the end of the day though, you can usually catch me break dancing at home or at a local session in town. It's the best way to express creativity, stay fit, and look cool while doing it. (In my opinion.)
 
 ## Contact
 [kevin.m.chan@edu.uwaterloo.ca](mailto:kevin.m.chan@uwaterloo.ca)

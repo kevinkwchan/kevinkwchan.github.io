@@ -914,7 +914,7 @@ img {
   border-bottom-style: solid;
   border-bottom-width: 1px; }
 
-.bl {
+.bl, #case-study blockquote p {
   border-left-style: solid;
   border-left-width: 1px; }
 
@@ -1470,7 +1470,7 @@ img {
 .bw1 {
   border-width: 0.125rem; }
 
-.bw2 {
+.bw2, #case-study blockquote p {
   border-width: 0.25rem; }
 
 .bw3 {
@@ -2858,7 +2858,7 @@ img {
 .sans-serif {
   font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif; }
 
-.serif {
+.serif, #case-study blockquote p {
   font-family: georgia, serif; }
 
 .system-sans-serif {
@@ -2915,7 +2915,7 @@ code, .code {
      -l  = large
 
 */
-.i {
+.i, #case-study blockquote p {
   font-style: italic; }
 
 .fs-normal {
@@ -5166,7 +5166,7 @@ code, .code {
 .pl2 {
   padding-left: 0.5rem; }
 
-.pl3 {
+.pl3, #case-study blockquote p {
   padding-left: 1rem; }
 
 .pl4 {
@@ -7309,7 +7309,7 @@ code, .code {
 .f3, h2 {
   font-size: 1.5rem; }
 
-.f4 {
+.f4, #case-study blockquote p {
   font-size: 1.25rem; }
 
 .f5 {
@@ -7336,7 +7336,7 @@ code, .code {
   .f2-ns, h2 {
     font-size: 2.25rem; }
 
-  .f3-ns {
+  .f3-ns, #case-study blockquote p {
     font-size: 1.5rem; }
 
   .f4-ns, #case-study p, #case-study li, #about p {
