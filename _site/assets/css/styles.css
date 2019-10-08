@@ -4185,7 +4185,7 @@ code, .code {
 .o-50 {
   opacity: .5; }
 
-.o-40 {
+.o-40, a:hover div:not(:first-child) {
   opacity: .4; }
 
 .o-30 {
@@ -7994,13 +7994,16 @@ a:hover {
   transition: .25s;
   background-image: linear-gradient(to right, #F9F01D 75%, #F9F01D 75%); }
 
-.bg-none {
-  background-image: none; }
+a.p-card, a.p-card:hover {
+  background: none; }
 
 a:hover .card-accent {
   transition: .5s; }
 
 a:hover .card-accent div {
+  transition: .5s; }
+
+a:hover div:not(:first-child) {
   transition: .5s; }
 
 .inter {

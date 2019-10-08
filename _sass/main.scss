@@ -25,11 +25,10 @@ a:hover {
 	@extend .black;
 }
 
-.bg-none { background-image: none }
+// case study card link
+a.p-card, a.p-card:hover { background: none; }
 
-.card-accent {
-	@extend .absolute, .top-0, .bg-yellow, .h4, .w-100
-};
+.card-accent { @extend .absolute, .top-0, .bg-yellow, .h4, .w-100 };
 
 a:hover .card-accent {
 	transition: .5s;
@@ -40,6 +39,13 @@ a:hover .card-accent div {
 	transition: .5s;
 	@extend .o-100
 };
+
+a:hover div:not(:first-child) {
+	transition: .5s;
+	@extend .o-40
+};
+
+// end case study card link
 
 #case-study {
 	p { @extend .ma0, .mb3, .mw7, .center, .f4-ns };
