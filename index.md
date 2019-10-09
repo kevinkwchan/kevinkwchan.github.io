@@ -9,11 +9,11 @@ layout: default
 		I like to think in systems,<br class='dn di-l'>
 		tell stories about real people,<br class='dn di-l'>
 		and help teams make decisions with research. <br><br>
-		See it in action. ↓
+		<a href='#projects'>See it in action. ↓</a>
 	</div>
 </section>
 
-<section markdown="0" id='projects' class=''>
+<section markdown="0" id='projects' class='pt5'>
 {% for item in site.projects %}
 	{% include portfolio-item.html project=item %}
 {% endfor %}

@@ -4,7 +4,7 @@ layout: about
 ---
 <section class="mw7 center mb4">
     <div class='f1-l f2-m f3 lh-title'>
-		A lil' about me
+		A lil' about Kevin
 	</div>
 </section>
 

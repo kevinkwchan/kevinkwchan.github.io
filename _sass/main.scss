@@ -1,10 +1,24 @@
 @import "../node_modules/tachyons-sass/tachyons.scss";
 
+html { scroll-behavior: smooth }
+
+#projects {
+	margin-top: -$spacing-extra-large;
+}
+
 p, li { @extend .lh-copy, .mb1 };
 
-h2 { @extend .f2-ns, .f3, .mt5, .mb3, .normal };
+h2 { @extend .f2-ns, .f3, .mt5, .mb3, .normal, .lh-title };
 
-h3 { @extend .mb2, .mt4 };
+h3 { @extend .mb2, .mt4, .lh-title };
+
+blockquote p {
+	@extend .serif, .i, .f4, .f3-ns, .bl, .bw2, .pl3
+};
+
+blockquote {
+	@extend .mw7
+}
 
 .mw1440 { max-width: 1440px; }
 
@@ -53,9 +67,7 @@ a:hover div:not(:first-child) {
 	h2 { @extend .mw7, .center };
 	h3 { @extend .mw7, .center };
 
-	blockquote p {
-		@extend .serif, .i, .f4, .f3-ns, .bl, .bw2, .pl3
-	}
+
 };
 
 #about {

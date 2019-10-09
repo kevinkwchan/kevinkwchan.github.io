@@ -9,7 +9,7 @@
 
     <div class="f1-l f2-m f3 lh-title mw8">{{ page.question }}</div>
     
-    <div class='mt3 mb5'>
+    <div class='mt3 mb5 lh-copy'>
       Tags:
       {% for item in page.tags %}
         <span>{{ item }}</span>{% if item != page.tags.last %}, {% endif %}
@@ -34,9 +34,6 @@
         mr3
         {% endif %}
         'href='#'>↑ Back to top</a>
-      {% if page.next.url %}
-        <a class='dib'href='{{ page.next.url }}'>→ Next project</a>
-      {% endif %}
     </div>
     {% include footer.html %}
   </body>
