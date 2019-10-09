@@ -17,7 +17,7 @@ blockquote p {
 };
 
 blockquote {
-	@extend .mw7
+	@extend .mw7, .center
 }
 
 .mw1440 { max-width: 1440px; }

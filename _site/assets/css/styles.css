@@ -7526,7 +7526,7 @@ code, .code {
 .overflow-container {
   overflow-y: scroll; }
 
-.center, #case-study p, #case-study li, #case-study h2, #case-study h3, #about p, #about h2, #about h3 {
+.center, blockquote, #case-study p, #case-study li, #case-study h2, #case-study h3, #about p, #about h2, #about h3 {
   margin-right: auto;
   margin-left: auto; }
 

@@ -8,6 +8,8 @@ layout: about
 	</div>
 </section>
 
+> My employers have asked me to keep my work under wraps.<br>Shoot me an email at <a href='kevin.m.chan@uwaterloo.ca'>kevin.m.chan@uwaterloo.ca</a> if you'd like to see my portfolio.
+
 I'm fascinated by the way society and technology influence each other, and the resulting human experiences that arise from that relationship. 
 
 This interest has manifested itself in product design, UX research and data science roles. I like to blend qualitative and quantitative data to tell stories about real people, and use those stories along with models I craft to facilitate discussions with teams on how to solve problems for customers. 
